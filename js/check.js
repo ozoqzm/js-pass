@@ -24,8 +24,7 @@ function checkPass() {
       elTel == dataFile[i].phone &&
       dataFile[i].pass == 1
     ) {
-      window.location.href =
-        "file:///C:/Users/spah7/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/lionhw0505/js_session/pages/pass.html?${elName}";
+      window.location.href = `file:///C:/Users/spah7/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/lionhw0505/js_session/pages/pass.html?${elName}`;
       break;
     } else if (
       elName == dataFile[i].name &&
